@@ -50,6 +50,7 @@ main{
 
 .game-details-container h1{
     font-size: 1.2rem;
+    color: teal;
 }
 
 .game-question-container{
@@ -91,10 +92,14 @@ span label{
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: transform 0.3s;
+    /*transition: transform 0.3s;*/
     font-weight: 600;
     font-size: 13px;;
     color: rgb(22, 22, 22);
+}
+span label:hover{
+    background-color: white;
+    transform: scale(1.1);
 }
 
 
